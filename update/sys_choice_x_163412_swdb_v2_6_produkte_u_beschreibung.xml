@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_beschreibung" table="x_163412_swdb_v2_6_produkte" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_beschreibung</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_163412_swdb_v2_6_produkte</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-20 15:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c3fddab4fd31300489c30318110c742</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:05:30</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_beschreibung</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_163412_swdb_v2_6_produkte</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-20 15:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc3fddab4fd31300489c30318110c743</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:05:30</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_beschreibung</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_163412_swdb_v2_6_produkte</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-20 15:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c3fddab4fd31300489c30318110c744</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:05:30</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_beschreibung</element>
+            <name>x_163412_swdb_v2_6_produkte</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-20 15:43:44</sys_created_on>
+            <sys_id>783fddab4fd31300489c30318110c743</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_beschreibung</sys_name>
+            <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+            <sys_update_name>sys_choice_x_163412_swdb_v2_6_produkte_u_beschreibung</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:43:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

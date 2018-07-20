@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Produktklassen" max_length="40" name="x_163412_swdb_v2_6_produktklassen" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Klassifizierung" mandatory="true" max_length="40" name="u_klassifizierung" type="string"/>
+    </element>
+</database>

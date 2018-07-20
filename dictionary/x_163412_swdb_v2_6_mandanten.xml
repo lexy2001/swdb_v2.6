@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mandanten" max_length="40" name="x_163412_swdb_v2_6_mandanten" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element label="Ausblenden" max_length="40" name="u_hidden" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Kurzform" mandatory="true" max_length="40" name="u_kurzform" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mandantenname" mandatory="true" max_length="40" name="u_mandantenname" type="string"/>
+    </element>
+</database>

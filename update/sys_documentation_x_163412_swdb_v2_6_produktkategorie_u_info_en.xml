@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_info" label="Beschreibung" language="en" table="x_163412_swdb_v2_6_produktkategorie">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_info</element>
+            <help/>
+            <hint/>
+            <label>Beschreibung</label>
+            <language>en</language>
+            <name>x_163412_swdb_v2_6_produktkategorie</name>
+            <plural>Beschreibungs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-20 15:07:25</sys_created_on>
+            <sys_id>c9e69da74fd31300489c30318110c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Beschreibung</sys_name>
+            <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+            <sys_update_name>sys_documentation_x_163412_swdb_v2_6_produktkategorie_u_info_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:07:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

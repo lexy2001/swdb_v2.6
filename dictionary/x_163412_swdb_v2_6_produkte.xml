@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Produkte" max_length="40" name="x_163412_swdb_v2_6_produkte" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Anwendungs ID" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Beschreibung" max_length="1024" name="u_beschreibung" type="string"/>
+        <element label="Einsatztyp" max_length="32" name="u_einsatztyp" reference="x_163412_swdb_v2_6_produkteinsatztypen" type="reference"/>
+        <element label="FormID" max_length="40" name="u_formid" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Hersteller" max_length="40" name="u_hersteller" type="string"/>
+        <element label="Homepage des Herstellers" max_length="1024" name="u_homepage" type="url"/>
+        <element label="Kategorie" max_length="32" name="u_kategorie" reference="x_163412_swdb_v2_6_produktkategorie" type="reference"/>
+        <element label="Klassifizierung" max_length="32" name="u_klassifizierung" reference="x_163412_swdb_v2_6_produktklassen" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Produktname" mandatory="true" max_length="40" name="u_produktname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="aktiv" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="aktiv" sequence="0" value="aktiv"/>
+                <element label="archiviert" sequence="1" value="archiviert"/>
+                <element label="unbekannt" sequence="2" value="unbekannt"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_kategorie"/>
+        </index>
+        <index name="index2">
+            <element name="u_einsatztyp"/>
+        </index>
+        <index name="index3">
+            <element name="u_klassifizierung"/>
+        </index>
+    </element>
+</database>
