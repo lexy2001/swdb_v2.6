@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Rollen" max_length="40" name="x_163412_swdb_v2_6_rollen" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element label="Mandant" max_length="32" name="u_mandant" reference="x_163412_swdb_v2_6_mandanten" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Rolle" mandatory="true" max_length="40" name="u_rolle" type="string"/>
+        <index name="index">
+            <element name="u_mandant"/>
+        </index>
+    </element>
+</database>

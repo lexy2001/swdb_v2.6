@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Produkt - PlattformInfo" max_length="40" name="x_163412_swdb_v2_6_produkt_plattforminfo" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element label="Aktiv" max_length="40" name="u_aktiv" type="boolean"/>
+        <element label="Anleitung" max_length="1024" name="u_anleitung" type="url"/>
+        <element label="Freigabe" max_length="40" name="u_freigabe" type="boolean"/>
+        <element label="Mandant" mandatory="true" max_length="32" name="u_mandant" reference="x_163412_swdb_v2_6_mandanten" type="reference"/>
+        <element label="Paketiert" max_length="40" name="u_paketiert" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Paketname" max_length="64" name="u_paketname" type="string"/>
+        <element label="Paketpfad" max_length="1024" name="u_paketpfad" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Paketversion" max_length="40" name="u_paketversion" type="string"/>
+        <element label="Plattform" mandatory="true" max_length="32" name="u_plattform" reference="x_163412_swdb_v2_6_plattformen" type="reference"/>
+        <element label="Produktinstanz" mandatory="true" max_length="32" name="u_produktinstanz" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
+        <index name="index">
+            <element name="u_mandant"/>
+        </index>
+        <index name="index2">
+            <element name="u_plattform"/>
+        </index>
+        <index name="index3">
+            <element name="u_produktinstanz"/>
+        </index>
+    </element>
+</database>

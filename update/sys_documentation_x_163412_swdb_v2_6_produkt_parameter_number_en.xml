@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number" label="ID" language="en" table="x_163412_swdb_v2_6_produkt_parameter">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>ID</label>
+            <language>en</language>
+            <name>x_163412_swdb_v2_6_produkt_parameter</name>
+            <plural>IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 08:54:32</sys_created_on>
+            <sys_id>485e53904f631300489c30318110c771</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>ID</sys_name>
+            <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+            <sys_update_name>sys_documentation_x_163412_swdb_v2_6_produkt_parameter_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 09:00:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

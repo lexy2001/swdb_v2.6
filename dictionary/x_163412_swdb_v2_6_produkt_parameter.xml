@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Produkt - Parameter" max_length="40" name="x_163412_swdb_v2_6_produkt_parameter" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Wert" mandatory="true" max_length="64" name="u_parameter" type="string"/>
+        <element label="Bezeichnung" mandatory="true" max_length="32" name="u_param_typ" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="Produktversion" mandatory="true" max_length="32" name="u_produkt_instanz" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
+        <index name="index">
+            <element name="u_produkt_instanz"/>
+        </index>
+        <index name="index2">
+            <element name="u_param_typ"/>
+        </index>
+    </element>
+</database>

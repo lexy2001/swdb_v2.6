@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Produkt - Verantwortliche" max_length="40" name="x_163412_swdb_v2_6_produkt_verantwortliche" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Anrede" max_length="40" name="u_anrede" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bereich" max_length="40" name="u_bereich" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nachname" mandatory="true" max_length="40" name="u_nachname" type="string"/>
+        <element label="Anwendungsversion" mandatory="true" max_length="32" name="u_produktinstanz" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
+        <element label="Rolle" mandatory="true" max_length="32" name="u_rolle" reference="x_163412_swdb_v2_6_rollen" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Telefon" max_length="40" name="u_telefon" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vorname" max_length="40" name="u_vorname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Yid" max_length="40" name="u_yid" type="string"/>
+        <index name="index">
+            <element name="u_produktinstanz"/>
+        </index>
+        <index name="index2">
+            <element name="u_rolle"/>
+        </index>
+    </element>
+</database>

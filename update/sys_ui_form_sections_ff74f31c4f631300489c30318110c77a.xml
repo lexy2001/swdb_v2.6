@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="ff74f31c4f631300489c30318110c77a" sys_domain="global" table="x_163412_swdb_v2_6_produktinstanz" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 10:31:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3774f31c4f631300489c30318110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_163412_swdb_v2_6_produktinstanz" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">ff74f31c4f631300489c30318110c77a</sys_ui_form>
+            <sys_ui_section caption="Anwendungsversion (tbl_Produktinstanz)" display_value="Anwendungsversion (tbl_Produktinstanz)" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">e24e87584f231300489c30318110c7d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 10:31:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 10:31:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb74371c4f631300489c30318110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_163412_swdb_v2_6_produktinstanz" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">ff74f31c4f631300489c30318110c77a</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">b374f31c4f631300489c30318110c77a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 10:31:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 10:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39277b5c4f631300489c30318110c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_163412_swdb_v2_6_produktinstanz" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">ff74f31c4f631300489c30318110c77a</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">7d27f75c4f631300489c30318110c729</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 10:43:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_163412_swdb_v2_6_produktinstanz</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 10:31:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff74f31c4f631300489c30318110c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_163412_swdb_v2_6_produktinstanz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ff74f31c4f631300489c30318110c77a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 10:31:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

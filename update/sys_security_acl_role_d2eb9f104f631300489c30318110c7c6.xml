@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-23 08:44:03</sys_created_on>
+        <sys_id>d2eb9f104f631300489c30318110c7c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_163412_swdb_v2_6_parametertypen.x_163412_swdb_v2_6.parametertypen_user</sys_name>
+        <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+        <sys_security_acl display_value="x_163412_swdb_v2_6_parametertypen">9aeb9f104f631300489c30318110c7c3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d2eb9f104f631300489c30318110c7c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-23 08:44:03</sys_updated_on>
+        <sys_user_role display_value="x_163412_swdb_v2_6.parametertypen_user" name="x_163412_swdb_v2_6.parametertypen_user">deeb1b104f631300489c30318110c737</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

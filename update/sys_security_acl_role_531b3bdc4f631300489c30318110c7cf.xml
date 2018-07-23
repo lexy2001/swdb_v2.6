@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-23 11:00:22</sys_created_on>
+        <sys_id>531b3bdc4f631300489c30318110c7cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_163412_swdb_v2_6_lizenzform.x_163412_swdb_v2_6.lizenzform_user</sys_name>
+        <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+        <sys_security_acl display_value="x_163412_swdb_v2_6_lizenzform">1b1b3bdc4f631300489c30318110c7cc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_531b3bdc4f631300489c30318110c7cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-23 11:00:22</sys_updated_on>
+        <sys_user_role display_value="x_163412_swdb_v2_6.lizenzform_user" name="x_163412_swdb_v2_6.lizenzform_user">db1b3b9c4f631300489c30318110c74a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
