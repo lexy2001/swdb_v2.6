@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Produktabhängigkeiten" max_length="40" name="x_163412_swdb_v2_6_produktabh_ngigkeiten" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Kommentar" max_length="500" name="u_kommentar" type="string"/>
+        <element label="Produkt Child" mandatory="true" max_length="32" name="u_produkt_child" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
+        <element label="Produkt Parent" mandatory="true" max_length="32" name="u_produkt_parent" reference="x_163412_swdb_v2_6_produkt_plattforminfo" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Reihenfolge" max_length="40" name="u_reihenfolge" type="string"/>
+        <index name="index">
+            <element name="u_produkt_parent"/>
+        </index>
+        <index name="index2">
+            <element name="u_produkt_child"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Releaseinhalt" max_length="40" name="x_163412_swdb_v2_6_releaseinhalt" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element label="Abgenommen?" max_length="40" name="u_abnahme" type="boolean"/>
+        <element label="Abgenommen am/um" max_length="40" name="u_abnahmezeitpunkt" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Abgenommen durch" max_length="40" name="u_abnahme_user" type="string"/>
+        <element label="Release" mandatory="true" max_length="32" name="u_bundle" reference="x_163412_swdb_v2_6_release" type="reference"/>
+        <element label="Mandant" mandatory="true" max_length="32" name="u_mandant" reference="x_163412_swdb_v2_6_mandanten" type="reference"/>
+        <element label="Anwendungsversion" mandatory="true" max_length="32" name="u_produktinstanz" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
+        <index name="index">
+            <element name="u_mandant"/>
+        </index>
+        <index name="index2">
+            <element name="u_bundle"/>
+        </index>
+        <index name="index3">
+            <element name="u_produktinstanz"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Firewallfreischaltungen" max_length="40" name="x_163412_swdb_v2_6_firewallfreischaltungen" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
+        <element label="BAMBI-Nr." mandatory="true" max_length="32" name="u_bambi" reference="x_163412_swdb_v2_6_fw_bambi" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Port" max_length="40" name="u_port" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quell-IP" max_length="40" name="u_quell_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ziel-IP" max_length="40" name="u_ziel_ip" type="string"/>
+        <index name="index">
+            <element name="u_bambi"/>
+        </index>
+    </element>
+</database>
