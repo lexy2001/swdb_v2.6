@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="tbl_Produktinstanz.xlsx" max_length="40" name="x_163412_swdb_v2_6_tbl_produktinstanz_xlsx" type="collection">
+        <element attributes="import_attribute_name=AnlageDatum" label="AnlageDatum" max_length="40" name="u_anlagedatum" type="glide_date"/>
+        <element attributes="import_attribute_name=BambiNr,edge_encryption_enabled=true" label="BambiNr" max_length="42" name="u_bambinr" type="string"/>
+        <element attributes="import_attribute_name=Erfasser,edge_encryption_enabled=true" label="Erfasser" max_length="40" name="u_erfasser" type="string"/>
+        <element attributes="import_attribute_name=Firewall,edge_encryption_enabled=true" label="Firewall" max_length="40" name="u_firewall" type="string"/>
+        <element attributes="import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="integer"/>
+        <element attributes="import_attribute_name=ID_Produkt" label="ID_Produkt" max_length="40" name="u_id_produkt" type="integer"/>
+        <element attributes="import_attribute_name=ID_Typ" label="ID_Typ" max_length="40" name="u_id_typ" type="integer"/>
+        <element attributes="import_attribute_name=InstanzName,edge_encryption_enabled=true" label="InstanzName" max_length="77" name="u_instanzname" type="string"/>
+        <element attributes="import_attribute_name=InstanzVersion,edge_encryption_enabled=true" label="InstanzVersion" max_length="40" name="u_instanzversion" type="string"/>
+        <element attributes="import_attribute_name=Lizenzart" label="Lizenzart" max_length="40" name="u_lizenzart" type="integer"/>
+        <element attributes="import_attribute_name=Nachfolger" label="Nachfolger" max_length="40" name="u_nachfolger" type="integer"/>
+        <element attributes="import_attribute_name=ProduktnameIntern,edge_encryption_enabled=true" label="ProduktnameIntern" max_length="73" name="u_produktnameintern" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element label="Vorgänger" max_length="40" name="u_vorgänger" type="integer"/>
+        <element attributes="import_attribute_name=ZusatzInfos,edge_encryption_enabled=true" label="ZusatzInfos" max_length="4739" name="u_zusatzinfos" type="string"/>
+    </element>
+</database>

@@ -7,7 +7,7 @@
         <element attributes="edge_encryption_enabled=true" label="Datentyp" max_length="40" name="u_datentyp" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Format" max_length="40" name="u_format" type="string"/>
         <element label="Mandant" mandatory="true" max_length="32" name="u_mandant" reference="x_163412_swdb_v2_6_mandanten" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Typ" mandatory="true" max_length="40" name="u_typ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Typ" mandatory="true" max_length="40" name="u_typ" type="string"/>
         <index name="index">
             <element name="u_mandant"/>
         </index>

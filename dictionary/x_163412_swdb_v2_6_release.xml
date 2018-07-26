@@ -5,7 +5,7 @@
         <element attributes="edge_encryption_enabled=true" label="Bezeichnung" mandatory="true" max_length="40" name="u_bundlename" type="string"/>
         <element label="dtCreation" max_length="40" name="u_dtcreation" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Info" max_length="1024" name="u_info" type="string"/>
-        <element label="Mandant" max_length="32" name="u_mandant" reference="x_163412_swdb_v2_6_mandanten" type="reference"/>
+        <element display="true" label="Mandant" max_length="32" name="u_mandant" reference="x_163412_swdb_v2_6_mandanten" type="reference"/>
         <element default="true" label="Status" max_length="40" name="u_status" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Verantwortlich" max_length="40" name="u_verantwortlich" type="string"/>
         <index name="index">

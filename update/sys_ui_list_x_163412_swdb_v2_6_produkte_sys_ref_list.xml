@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_163412_swdb_v2_6_produkte" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_produktname</element>
+            <list_id display_value="x_163412_swdb_v2_6_produkte" element="NULL" name="x_163412_swdb_v2_6_produkte" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">864f4f114fe31300489c30318110c7c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 10:22:47</sys_created_on>
+            <sys_id>0e4f4f114fe31300489c30318110c7c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 10:22:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_status</element>
+            <list_id display_value="x_163412_swdb_v2_6_produkte" element="NULL" name="x_163412_swdb_v2_6_produkte" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">864f4f114fe31300489c30318110c7c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 10:22:47</sys_created_on>
+            <sys_id>8e4f4f114fe31300489c30318110c7c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 10:22:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_einsatztyp.u_einsatztyp</element>
+            <list_id display_value="x_163412_swdb_v2_6_produkte" element="NULL" name="x_163412_swdb_v2_6_produkte" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">864f4f114fe31300489c30318110c7c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 10:22:47</sys_created_on>
+            <sys_id>024f4f114fe31300489c30318110c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 10:22:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_klassifizierung.u_klassifizierung</element>
+            <list_id display_value="x_163412_swdb_v2_6_produkte" element="NULL" name="x_163412_swdb_v2_6_produkte" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">864f4f114fe31300489c30318110c7c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 10:22:47</sys_created_on>
+            <sys_id>824f4f114fe31300489c30318110c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 10:22:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_kategorie.u_kategorie</element>
+            <list_id display_value="x_163412_swdb_v2_6_produkte" element="NULL" name="x_163412_swdb_v2_6_produkte" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">864f4f114fe31300489c30318110c7c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 10:22:47</sys_created_on>
+            <sys_id>064f4f114fe31300489c30318110c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 10:22:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_163412_swdb_v2_6_produkte" element="NULL" name="x_163412_swdb_v2_6_produkte" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">864f4f114fe31300489c30318110c7c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 10:22:47</sys_created_on>
+            <sys_id>864f4f114fe31300489c30318110c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 10:22:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_163412_swdb_v2_6_produkte</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 10:22:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>864f4f114fe31300489c30318110c7c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_163412_swdb_v2_6_produkte</sys_name>
+            <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+            <sys_update_name>sys_ui_list_x_163412_swdb_v2_6_produkte_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 10:22:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">e74830515820130059a6b831cdd54e6a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

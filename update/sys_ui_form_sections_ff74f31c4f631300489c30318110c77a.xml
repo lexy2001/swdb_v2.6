@@ -18,30 +18,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-23 10:31:27</sys_created_on>
+            <sys_created_on>2018-07-26 12:15:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fb74371c4f631300489c30318110c7e6</sys_id>
+            <sys_id>13196f1d4fe31300489c30318110c7f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_163412_swdb_v2_6_produktinstanz" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">ff74f31c4f631300489c30318110c77a</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">b374f31c4f631300489c30318110c77a</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">1b192f1d4fe31300489c30318110c74e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-23 10:31:27</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-23 10:43:03</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>39277b5c4f631300489c30318110c711</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_163412_swdb_v2_6_produktinstanz" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">ff74f31c4f631300489c30318110c77a</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_163412_swdb_v2_6_produktinstanz" sys_domain="global" view="Default view">7d27f75c4f631300489c30318110c729</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-23 10:43:03</sys_updated_on>
+            <sys_updated_on>2018-07-26 12:15:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_163412_swdb_v2_6_produktinstanz</name>

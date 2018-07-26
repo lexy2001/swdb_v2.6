@@ -2,7 +2,7 @@
 <database>
     <element label="Produktkategorie" max_length="40" name="x_163412_swdb_v2_6_produktkategorie" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Beschreibung" max_length="256" name="u_info" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Kategorie" mandatory="true" max_length="40" name="u_kategorie" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Beschreibung" max_length="256" name="u_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Kategorie" mandatory="true" max_length="40" name="u_kategorie" type="string"/>
     </element>
 </database>

@@ -5,16 +5,15 @@
         <element attributes="edge_encryption_enabled=true" label="BambiNr" mandatory="true" max_length="50" name="u_bambi_nr" type="string"/>
         <element label="Firewall Freischaltung" max_length="40" name="u_firewall" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="InstanzName" mandatory="true" max_length="40" name="u_instanz_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="InstanzVersion" mandatory="true" max_length="40" name="u_instanz_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="InstanzVersion" mandatory="true" max_length="40" name="u_instanz_version" type="string"/>
         <element label="Lizenzart" max_length="32" name="u_lizenzart" reference="x_163412_swdb_v2_6_lizenzform" type="reference"/>
         <element label="Nachfolger" max_length="32" name="u_nachfolger" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
         <element label="Anwendung" mandatory="true" max_length="32" name="u_produkt" reference="x_163412_swdb_v2_6_produkte" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="ProduktnameIntern" max_length="40" name="u_produktname_intern" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Status" mandatory="true" max_length="40" name="u_status" reference="x_163412_swdb_v2_6_instanzstatus" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_6" type="string"/>
+        <element label="Instanzstatus" mandatory="true" max_length="32" name="u_status" reference="x_163412_swdb_v2_6_instanzstatus" type="reference"/>
         <element label="Instanztyp" mandatory="true" max_length="32" name="u_typ" reference="x_163412_swdb_v2_6_instanztypen" type="reference"/>
         <element label="Vorgänger" max_length="32" name="u_vorgnger" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="ZusatzInfos" max_length="40" name="u_zusatzinfos" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ZusatzInfos" max_length="1000" name="u_zusatzinfos" type="string"/>
         <index name="index">
             <element name="u_vorgnger"/>
         </index>
@@ -25,9 +24,12 @@
             <element name="u_produkt"/>
         </index>
         <index name="index4">
-            <element name="u_lizenzart"/>
+            <element name="u_status"/>
         </index>
         <index name="index5">
+            <element name="u_lizenzart"/>
+        </index>
+        <index name="index6">
             <element name="u_typ"/>
         </index>
     </element>

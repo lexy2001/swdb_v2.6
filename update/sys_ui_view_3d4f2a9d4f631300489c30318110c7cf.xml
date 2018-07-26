@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>kurzform</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-26 08:02:57</sys_created_on>
+        <sys_id>3d4f2a9d4f631300489c30318110c7cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kurzform</sys_name>
+        <sys_package display_value="SWDB v2.6" source="x_163412_swdb_v2_6">204359274fd31300489c30318110c7ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWDB v2.6">204359274fd31300489c30318110c7ff</sys_scope>
+        <sys_update_name>sys_ui_view_3d4f2a9d4f631300489c30318110c7cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-26 08:02:57</sys_updated_on>
+        <title>Kurzform</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -3,7 +3,7 @@
     <element label="Plattformen" max_length="40" name="x_163412_swdb_v2_6_plattformen" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID" max_length="40" name="number" type="string"/>
         <element label="Mandant" max_length="32" name="u_mandant" reference="x_163412_swdb_v2_6_mandanten" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Bezeichnung" max_length="40" name="u_plattform" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Bezeichnung" max_length="40" name="u_plattform" type="string"/>
         <index name="index">
             <element name="u_mandant"/>
         </index>
