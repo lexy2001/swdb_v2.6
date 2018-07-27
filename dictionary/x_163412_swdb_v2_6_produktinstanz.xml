@@ -4,8 +4,8 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Instanz-ID" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="BambiNr" mandatory="true" max_length="50" name="u_bambi_nr" type="string"/>
         <element label="Firewall Freischaltung" max_length="40" name="u_firewall" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="InstanzName" mandatory="true" max_length="40" name="u_instanz_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="InstanzVersion" mandatory="true" max_length="40" name="u_instanz_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="InstanzName" mandatory="true" max_length="40" name="u_instanz_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="InstanzVersion" mandatory="true" max_length="40" name="u_instanz_version" type="string"/>
         <element label="Lizenzart" max_length="32" name="u_lizenzart" reference="x_163412_swdb_v2_6_lizenzform" type="reference"/>
         <element label="Nachfolger" max_length="32" name="u_nachfolger" reference="x_163412_swdb_v2_6_produktinstanz" type="reference"/>
         <element label="Anwendung" mandatory="true" max_length="32" name="u_produkt" reference="x_163412_swdb_v2_6_produkte" type="reference"/>
